@@ -1,0 +1,33 @@
+{
+  "name": "generator-prestashop-module",
+  "version": "1.0.0",
+  "description": "Generate a prestashop module",
+  "files": [
+    "generators"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ascodix/generator-prestashop-module.git"
+  },
+  "author": {
+    "name": "Albuisson Stéphane",
+    "email": "stephane.albuisson@gmail.com"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "prestashop",
+    "module"
+  ],
+  "dependencies": {
+    "yeoman-generator": "2.0.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ascodix/generator-prestashop-module/issues"
+  },
+  "homepage": "https://github.com/ascodix/generator-prestashop-module#readme"
+}
