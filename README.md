@@ -1,1 +1,1 @@
-# ps-module-generator
+# generator-prestashop-module
