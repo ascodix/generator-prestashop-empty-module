@@ -1,0 +1,1 @@
+# ps-module-generator
