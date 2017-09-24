@@ -23,7 +23,7 @@ class <%= className %> extends Module
 		parent::__construct();
 
 		$this->displayName = $this->trans('<%= displayName %>', array(), 'Modules.<%= moduleName %>.Admin');
-		$this->description = $this->trans('<%= description %>.', array(), 'Modules.<%= moduleName %>.Admin');
+		$this->description = $this->trans('<%- description %>.', array(), 'Modules.<%= moduleName %>.Admin');
 	}
 
 	public function install()

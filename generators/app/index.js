@@ -95,7 +95,7 @@ module.exports = class extends Generator {
                 className     :  className,
                 author        :  answers.author,
                 authorEmail   :  answers.authorEmail,
-                description   :  answers.description
+                description   :  answers.description.replace('\'', '\\\'')
             };
 
             done();
