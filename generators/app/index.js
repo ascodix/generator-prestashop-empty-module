@@ -27,7 +27,7 @@ module.exports = class extends Generator {
         var prompts = [{
             type    : 'input',
             name    : 'suffixName',
-            message : 'Suffix name (none by dafault)',
+            message : 'Suffix name (none by default) (0 to 15 lowercase letters)',
             validate: function (str) {
                 return validator.isLength(str, {min: 0, max: 15}) && validator.isLowercase(str);
             },
