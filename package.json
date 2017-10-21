@@ -1,7 +1,7 @@
 {
-  "name": "generator-prestashop-module",
+  "name": "generator-prestashop-empty-module",
   "version": "1.0.0",
-  "description": "Generate a prestashop module",
+  "description": "Generate a prestashop empty module",
   "files": [
     "generators"
   ],
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ascodix/generator-prestashop-module.git"
+    "url": "git+https://github.com/ascodix/generator-prestashop-empty-module.git"
   },
   "author": {
     "name": "Albuisson Stéphane",
@@ -31,7 +31,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ascodix/generator-prestashop-module/issues"
+    "url": "https://github.com/ascodix/generator-prestashop-empty-module/issues"
   },
-  "homepage": "https://github.com/ascodix/generator-prestashop-module#readme"
+  "homepage": "https://github.com/ascodix/generator-prestashop-empty-module#readme"
 }

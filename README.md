@@ -1,4 +1,4 @@
-# generator-prestashop-module
+# generator-prestashop-empty-module
 
 ## Requirements
 
@@ -14,7 +14,7 @@ npm install -g yo
 
 Install this generator:
 ```
-npm install -g generator-prestashop-module
+npm install -g generator-prestashop-empty-module
 ```
 
 Run this generator:
