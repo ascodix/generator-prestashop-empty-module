@@ -42,7 +42,7 @@ module.exports = class extends Generator {
         },{
             type    : 'input',
             name    : 'displayName',
-            message : 'Your module name',
+            message : 'Your module name (5 to 25 lowercase letters)',
             validate: function (str) {
                 return validator.isLength(str, {min: 5, max: 100});
             }
@@ -57,7 +57,7 @@ module.exports = class extends Generator {
         },{
             type    : 'input',
             name    : 'author',
-            message : 'Author',
+            message : 'Author (1 to 30 lowercase letters)',
             validate: function (str) {
                 return validator.isLength(str, {min: 1, max: 30});
             }

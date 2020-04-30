@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run-dev": "npm link && yo prestashop-empty-module"
+    "run-dev": "npm link && cd test && yo prestashop-empty-module"
   },
   "repository": {
     "type": "git",
