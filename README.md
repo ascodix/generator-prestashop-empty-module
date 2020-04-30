@@ -19,5 +19,5 @@ npm install -g generator-prestashop-empty-module
 
 Run this generator:
 ```
-yo generator-prestashop-empty-module
+yo prestashop-empty-module
 ```
