@@ -8,3 +8,9 @@ npm-debug.log
 .settings
 .idea/*
 *.iml
+
+# Yeoman
+.yo-repository
+
+# Répertoire de test
+.test
