@@ -1,13 +1,14 @@
 {
   "name": "generator-prestashop-empty-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate a prestashop empty module",
   "files": [
     "generators"
   ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-dev": "npm link && yo generator-prestashop-empty-module"
   },
   "repository": {
     "type": "git",

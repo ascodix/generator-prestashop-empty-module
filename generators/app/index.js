@@ -26,8 +26,8 @@ module.exports = class extends Generator {
 
         var prompts = [{
             type    : 'input',
-            name    : 'suffixName',
-            message : 'Suffix name (none by default) (0 to 15 lowercase letters)',
+            name    : 'prefixName',
+            message : 'Prefix name (none by default, ex: ps for ps_yourmodule) (0 to 15 lowercase letters)',
             validate: function (str) {
                 return validator.isLength(str, {min: 0, max: 15}) && validator.isLowercase(str);
             },
@@ -35,9 +35,9 @@ module.exports = class extends Generator {
         },{
             type    : 'input',
             name    : 'technicalName',
-            message : 'Technical Name (5 to 15 lowercase letters)',
+            message : 'Technical Name (5 to 25 lowercase letters)',
             validate: function (str) {
-                return validator.isLength(str, {min: 5, max: 15}) && validator.isLowercase(str);
+                return validator.isLength(str, {min: 5, max: 25}) && validator.isLowercase(str);
             }
         },{
             type    : 'input',
@@ -83,11 +83,11 @@ module.exports = class extends Generator {
 
         return this.prompt(prompts).then(function(answers) {
             var moduleName = pascalCasify(answers.technicalName);
-            var technicalName = isNullOrEmpty(answers.suffixName) ? answers.technicalName : answers.suffixName + '_' + answers.technicalName
+            var technicalName = isNullOrEmpty(answers.prefixName) ? answers.technicalName : answers.prefixName + '_' + answers.technicalName
             var className = pascalCasify(technicalName);
 
             this.props = {
-                suffixName    :  answers.suffixName,
+                prefixName    :  answers.prefixName,
                 technicalName :  technicalName,
                 moduleName    :  moduleName,
                 displayName   :  answers.displayName,
